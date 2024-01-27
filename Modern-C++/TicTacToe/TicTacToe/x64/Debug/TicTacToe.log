@@ -1,0 +1,6 @@
+﻿  AiPlayer.cpp
+C:\Users\ELITEBOOK\Documents\Facultate\MC\Curs 7\TicTacToe\TicTacToe\AiPlayer.cpp(42,40): warning C4305: 'initializing': truncation from 'double' to 'float'
+  TicTacToeGame.cpp
+  Generating Code...
+C:\Users\ELITEBOOK\Documents\Facultate\MC\Curs 7\TicTacToe\TicTacToe\AiPlayer.cpp(33): warning C4172: returning address of local variable or temporary
+  TicTacToe.vcxproj -> C:\Users\ELITEBOOK\Documents\Facultate\MC\Curs 7\TicTacToe\x64\Debug\TicTacToe.exe
