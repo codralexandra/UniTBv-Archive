@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\shoppingBasketRow.cppm.obj",
+            "outputs": [
+                "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HttpServerOOP-version\\HTTPServer\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HttpServerOOP-version\\HTTPServer\\x64\\Debug\\shoppingBasketRow.cppm.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "shoppingBasketRow",
+                    "source-path": "c:\\users\\elitebook\\documents\\facultate\\mc\\httpapp\\httpserveroop-version\\httpserver\\shoppingbasketrow.cppm",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

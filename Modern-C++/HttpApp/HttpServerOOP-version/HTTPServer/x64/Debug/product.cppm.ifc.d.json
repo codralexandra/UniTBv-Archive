@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\elitebook\\documents\\facultate\\mc\\httpapp\\httpserveroop-version\\httpserver\\product.cppm",
+        "ProvidedModule": "product",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\string",
+                "BMI": "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HttpServerOOP-version\\HTTPServer\\x64\\Debug\\string_UL4YYDFTDSKBK0JC.ifc"
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+﻿  Scanning sources for module dependencies...
+  Source.cpp
+  Compiling...
+  Source.cpp
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\query_string.h(117,37): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\query_string.h(370,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\query_string.h(406,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\query_string.h(445): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\utility.h(691): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\http_parser_merged.h(589,32): warning C4244: '=': conversion from '__int64' to 'unsigned long', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\http_parser_merged.h(609,32): warning C4244: '=': conversion from '__int64' to 'unsigned long', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\json.h(1211,39): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\json.h(1671,17): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\mustache.h(97,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\mustache.h(116,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\mustache.h(118,1): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\mustache.h(221,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\mustache.h(367,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\mustache.h(378,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\mustache.h(390,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\mustache.h(401,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\mustache.h(463,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\mustache.h(563,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(800,70): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(821,70): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(842,70): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(864,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(880,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(895,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(945,53): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(956,45): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(1002,36): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(1005,33): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(1212): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(1212): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(1259,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\ELITEBOOK\Documents\Facultate\MC\vcpkg\installed\x64-windows\include\crow\routing.h(1420,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  HTTPClient.vcxproj -> C:\Users\ELITEBOOK\Documents\Facultate\MC\HttpApp\HTTPClient\x64\Debug\HTTPClient.exe

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\unordered_map_8N4440XHG2EHINS2.obj",
+            "outputs": [
+                "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HTTPServer\\HTTPServer\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\unordered_map_8N4440XHG2EHINS2.module.json",
+                "x64\\Debug\\unordered_map_8N4440XHG2EHINS2.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\unordered_map",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\unordered_map",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

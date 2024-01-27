@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\routing.obj",
+            "outputs": [
+                "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HttpServerOOP-version\\HTTPServer\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\"
+            ],
+            "requires": [
+                {
+                    "logical-name": "utils"
+                },
+                {
+                    "logical-name": "product"
+                },
+                {
+                    "logical-name": "shoppingBasketRow"
+                },
+                {
+                    "logical-name": "product"
+                }
+            ]
+        }
+    ]
+}

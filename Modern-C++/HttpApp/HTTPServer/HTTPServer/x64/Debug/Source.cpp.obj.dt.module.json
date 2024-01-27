@@ -1,0 +1,11 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\elitebook\\documents\\facultate\\mc\\httpapp\\httpserver\\httpserver\\source.cpp",
+        "ProvidedModule": "",
+        "ImportedModules": [
+            "utils"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

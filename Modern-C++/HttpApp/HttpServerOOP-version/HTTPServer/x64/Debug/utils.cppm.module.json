@@ -1,0 +1,41 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\utils.cppm.obj",
+            "outputs": [
+                "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HttpServerOOP-version\\HTTPServer\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HttpServerOOP-version\\HTTPServer\\x64\\Debug\\utils.cppm.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "utils",
+                    "source-path": "c:\\users\\elitebook\\documents\\facultate\\mc\\httpapp\\httpserveroop-version\\httpserver\\utils.cppm",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "unordered_map",
+                    "source-path": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\unordered_map",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "string",
+                    "source-path": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\string",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "vector",
+                    "source-path": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\vector",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                }
+            ]
+        }
+    ]
+}

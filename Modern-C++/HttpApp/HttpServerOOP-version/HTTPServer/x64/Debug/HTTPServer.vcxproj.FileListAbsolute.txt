@@ -1,0 +1,1 @@
+C:\Users\ELITEBOOK\Documents\Facultate\MC\HttpApp\HttpServerOOP-version\HTTPServer\x64\Debug\HTTPServer.vcxproj.CopyComplete

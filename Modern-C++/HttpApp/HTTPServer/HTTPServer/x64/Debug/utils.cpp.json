@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\elitebook\\documents\\facultate\\mc\\httpapp\\httpserver\\httpserver\\utils.cpp",
+        "ProvidedModule": "",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "utils",
+                "BMI": "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HTTPServer\\HTTPServer\\x64\\Debug\\utils.cppm.ifc"
+            }
+        ],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\vector",
+                "BMI": "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HTTPServer\\HTTPServer\\x64\\Debug\\vector_LAD5NQY0OR0SGQIZ.ifc"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\string",
+                "BMI": "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HTTPServer\\HTTPServer\\x64\\Debug\\string_G2RL5U85SPZN5M9Q.ifc"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\unordered_map",
+                "BMI": "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HTTPServer\\HTTPServer\\x64\\Debug\\unordered_map_NXK02W6E2O3OK2L8.ifc"
+            }
+        ]
+    }
+}

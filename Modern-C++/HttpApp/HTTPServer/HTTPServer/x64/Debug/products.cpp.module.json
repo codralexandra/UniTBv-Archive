@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\products.obj",
+            "outputs": [
+                "C:\\Users\\ELITEBOOK\\Documents\\Facultate\\MC\\HttpApp\\HTTPServer\\HTTPServer\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\"
+            ],
+            "requires": [
+                {
+                    "logical-name": "utils"
+                }
+            ]
+        }
+    ]
+}

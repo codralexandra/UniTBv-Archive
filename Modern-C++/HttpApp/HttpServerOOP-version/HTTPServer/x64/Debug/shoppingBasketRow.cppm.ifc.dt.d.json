@@ -1,0 +1,10 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\elitebook\\documents\\facultate\\mc\\httpapp\\httpserveroop-version\\httpserver\\shoppingbasketrow.cppm",
+        "ProvidedModule": "shoppingBasketRow",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
