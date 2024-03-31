@@ -1,0 +1,102 @@
+Sa se simuleze activitatea unei Retele Token Ring formata din 10 calculatoare.
+Transmiterea de mesaje intr-o astfel de retea presupune existenta unui unic jeton care se deplaseaza pe mediul de comunicatie din calculator in calculator, intr-un singur sens.
+Jetonul este caracterizat prin:
+    -adresa IP a calculatorului sursa
+    -adresa IP a calculatorului destinatie
+    -mesaj
+    -camp care indica daca jetonul e liber/ocupat
+    -camp care indica daca jetoul a ajuns sau nu la destinatie
+Calculatorul se identifica prin:
+    -adresa IP
+    -buffer
+Adresa IP:
+    -4 numere cuprinse intre 0 si 255, separate prin "."
+    -fiecare IP e unic in retea
+
+Pentru a simula o transmitere de mesaj se vor genera aleator o sursa si o destinatie.
+In cazul in care jetoul e preluat de catre un calculator si incarcat cu un mesaj, acesta se va deplas din calculator in calculator
+pana cand va ajunge la destinatie.
+Destinatia care preia jetonul va copia mesajul in propriul buffer si va schimba proprietatea jetonului care spune ca mesajul a ajuns
+la destinatie si apoi il va lasa sa mearga mai departe pana ajunge inapoi la sursa. Sursa este cea care goleste campurile jetonului si il
+seteaza ca fiind liber.
+Dupa ce jetonul a fost setat ca fiind liber, poate fi preluat de oricare calculator din retea, deplasandu-se tot din calculator in calculator
+pana la noua sursa.
+
+Simularea va avea 10 pasi, iar calculatoarele sursa si destinatie se vor genera in mod aleator la fiecare pas.
+!Verificare daca ele sunt distincte
+
+La fiecare pas al simularii se va afisa fiecare calculator prin care circula jetonul, iar la calculatorul destinatie se va afisa si bufferul cu
+mesajul preluat din jeton.
+Mesajul transmit poate fi citit la fiecare pas al simularii, poate fi declarat in program sau se poate citi dintr-un fisier
+cu mesaje text.
+
+Exemplu de afisare pas cu pas:
+
+C0(155.109.13.108) -> null
+C1(151.91.11.141) -> null
+C2(68.151.34.159) -> null
+C3(116.138.160.38) -> null
+C4(117.195.33.55) -> null
+C5(192.111.251.134) -> null
+C6(2.2.152.150) -> null
+C7(25.114.37.167) -> null
+C8(177.179.25.15) -> null
+C9(75.196.178.105) -> null
+
+Sursa: C4 Destinatia: C9
+
+C4: Muta jetonul
+C5: Muta jetonul
+C6: Muta jetonul
+C7: Muta jetonul
+C8: Muta jetonul
+C9: Am ajuns la destinatie
+C9: Muta jetonul
+C0: Muta jetonul
+C1: Muta jetonul
+C2: Muta jetonul
+C3: Muta jetonul
+C4: Am ajuns inapoi
+
+C0(155.109.13.108) -> null
+C1(151.91.11.141) -> null
+C2(68.151.34.159) -> null
+C3(116.138.160.38) -> null
+C4(117.195.33.55) -> null
+C5(192.111.251.134) -> null
+C6(2.2.152.150) -> null
+C7(25.114.37.167) -> null
+C8(177.179.25.15) -> null
+C9(75.196.178.105) -> null;mesaj de test
+
+Sursa: C0 Destinatia: C5
+C4: Muta jetonul
+C5: Muta jetonul
+C6: Muta jetonul
+C7: Muta jetonul
+C8: Muta jetonul
+C9: Muta jetonul
+C0: Am preluat jetonul
+C0: Muta jetonul
+C1: Muta jetonul
+C2: Muta jetonul
+C3: Muta jetonul
+C4: Muta jetonul
+C5: Am ajuns la destinatie
+C5: Muta jetonul
+C6: Muta jetonul
+C7: Muta jetonul
+C8: Muta jetonul
+C9: Muta jetonul
+C0: Am ajuns inapoi
+
+C0(155.109.13.108) -> null
+C1(151.91.11.141) -> null
+C2(68.151.34.159) -> null
+C3(116.138.160.38) -> null
+C4(117.195.33.55) -> null
+C5(192.111.251.134) -> null;mesaj de test
+C6(2.2.152.150) -> null
+C7(25.114.37.167) -> null
+C8(177.179.25.15) -> null
+C9(75.196.178.105) -> null;mesaj de test
